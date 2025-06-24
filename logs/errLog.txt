@@ -1,0 +1,14 @@
+21:06:2025	23:40:51	8a93b5c0-daa3-498d-aeb4-46699195de6c	Error: Cannot set headers after they are sent to the client
+21:06:2025	23:41:22	29880639-48bf-40b3-a375-56528384c286	Error: Cannot set headers after they are sent to the client
+21:06:2025	23:41:51	5b9e7e5b-8879-4148-a20c-d4af39fd6cc9	Error: Cannot set headers after they are sent to the client
+21:06:2025	23:43:46	d89506c9-eb62-4cf3-96a9-b6469f00a03c	Error: Cannot set headers after they are sent to the client
+22:06:2025	09:03:44	ee7e6dc4-a4d7-4af1-a0fb-30bd3ad316f2	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+24:06:2025	14:16:35	04ee37b1-e957-4acd-8c01-5ef2ed79c4e9	SyntaxError: Unexpected token 'a', ..."irstname":a,
+    "l"... is not valid JSON
+24:06:2025	17:07:06	b99c90c8-784a-4f04-97e6-d90294268f5e	Error: Cannot set headers after they are sent to the client
+24:06:2025	17:10:02	7e3d8bfb-2919-41cd-b747-60c08c2b6588	Error: Cannot set headers after they are sent to the client
+24:06:2025	17:10:45	0380b9c6-6cac-4035-9a2e-6da65a1ee89e	Error: Cannot set headers after they are sent to the client
+24:06:2025	17:11:08	3be3bb79-e39c-464f-bd75-58283528bc73	SyntaxError: Expected double-quoted property name in JSON at position 16 (line 3 column 1)
+24:06:2025	17:11:16	74ebde21-46d4-49fb-a491-49451219f37b	Error: Cannot set headers after they are sent to the client
+24:06:2025	17:23:47	42c0d325-e99b-4351-98e7-5d4ed975c2f7	SyntaxError: Expected double-quoted property name in JSON at position 17 (line 3 column 1)
+24:06:2025	17:31:08	f3ce78f9-295b-48e4-8ea0-cf76ceddfe17	Error: Cannot set headers after they are sent to the client
