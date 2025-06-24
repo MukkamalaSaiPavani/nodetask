@@ -14,14 +14,10 @@ const authRouter=require('./routes/authRouter')
 const logoutRouter=require('./routes/logoutRouter')
 
 const port=process.env.PORT || 4000;
-
-//built-in middlewares
-app.use(express.urlencoded({extended:false})); //parses the data from body of request
+app.use(express.urlencoded({extended:false})); 
 app.use(express.json()); //parses json
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname,'public')))  // helps us serve static files 
-
-//3rd-party middleware
+app.use(express.static(path.join(__dirname,'public'))) 
 const cors = require('cors')
 const corsOptions=require('./config/corsOptions')
 app.use(cors(corsOptions))
