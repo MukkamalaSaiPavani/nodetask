@@ -21,29 +21,6 @@ app.use(express.json()); //parses json
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname,'public')))  // helps us serve static files 
 
-//another way of custom middleware is below
-
-//const middle1 = ((req,res,next)=>{
-  //  console.log("attempt")
-    //next();
-//})
-//app.use(middle1)
-//app.get(
-   // /hello(\.html)?/,
-    //(req,res,next)=>{
-//        console.log("attempt")
-  //      next();
-  //  },
-   // (req,res,next)=>{
-     //   console.log("Hello Guys")
-       // next();
- //   },
-   // (req,res)=>{
-     //   res.send("Welcome")
- //   }
-//);
-
-
 //3rd-party middleware
 const cors = require('cors')
 const corsOptions=require('./config/corsOptions')
